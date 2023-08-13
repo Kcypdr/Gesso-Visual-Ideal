@@ -1,0 +1,137 @@
+body {
+	font-family: Arial, sans-serif;
+	color: #333;
+	background-color: #f7f7f7;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #fff;
+	padding: 20px;
+	box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+	font-size: 36px;
+	margin: 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+}
+
+section {
+	padding: 40px;
+	background-color: #fff;
+	box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+	margin-bottom: 40px;
+}
+
+h2 {
+	font-size: 24px;
+	margin-top: 0;
+}
+
+ul {
+	list-style: disc;
+	margin-left: 20px;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.gallery img {
+	width: calc(33.333% - 10px);
+	margin-bottom: 20px;
+}
+
+form label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	background-color: #f7f7f7;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+
+input[type="submit"]:hover {
+	background-color: #555;
+}
+
+/* Mantenha as regras de estilo anteriores aqui */
+
+#servicos {
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+  }
+  
+  #servicos h2 {
+    font-size: 36px;
+    margin-top: 0;
+  }
+  
+  .servico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .servico img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .servico h3 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .servico p {
+    margin: 0;
+  }
+  
+  /* Mantenha as regras de estilo anteriores aqui */
+  
+  
+ 
